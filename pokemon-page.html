@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/pokemon-page.css">
+    <title>Pokedex</title>
+</head>
+<body class="pokemon-page">
+    <section>
+        <div class="pokemon-section1">
+            <span class="id">#</span>
+            <span class="pokemon-section1-title"></span>
+            <div class="types-container">
+            </div>
+            <div class="def-sa">
+                <span class="def-sa-title">Abilities</span>
+                <span class="def-sa-desc abilities"></span>
+            </div>
+            <div class="def-sa">
+                <span class="def-sa-title">Weight</span>
+                <span class="def-sa-desc weight"></span>
+                <span class="def-sa-title">Height</span>
+                <span class="def-sa-desc height"></span>
+            </div>
+            <img src = pokemonData.photo class="image-pokemon" alt="Pokemon">
+        </div>
+        <div class="pokemon-section2">
+            <h2 class="pokemon-section-title">Stats</h2>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td class="td-title">HP</td>
+                        <td class="td-container">
+                            <div class="container">
+                                <div class="skill hp" id="hp-bar"></div>
+                            </div>
+                        </td>
+                        <td class="td-stats hp-stats"></td>
+                    </tr>
+                    <tr>
+                        <td class="td-title">Attack</td>
+                        <td class="td-container">
+                            <div class="container">
+                                <div class="skill attack" id="attack-bar"></div>
+                            </div>
+                        </td>
+                        <td class="td-stats attack-stats"></td>
+                    </tr>
+                    <tr>
+                        <td class="td-title">Defense</td>
+                        <td class="td-container">
+                            <div class="container">
+                                <div class="skill defense" id="defense-bar"></div>
+                            </div>
+                        </td>
+                        <td class="td-stats defense-stats"></td>
+                    </tr>
+                    <tr>
+                        <td class="td-title">Special Attack</td>
+                        <td class="td-container">
+                            <div class="container">
+                                <div class="skill spattack" id="spattack-bar"></div>
+                            </div>
+                        </td>
+                        <td class="td-stats spattack-stats"></td>
+                    </tr>
+                    <tr>
+                        <td class="td-title">Special Defense</td>
+                        <td class="td-container">
+                            <div class="container">
+                                <div class="skill spdefense" id="spdefense-bar"></div>
+                            </div>
+                        </td>
+                        <td class="td-stats spdefense-stats"></td>
+                    </tr>
+                    <tr>
+                        <td class="td-title">Speed</td>
+                        <td class="td-container">
+                            <div class="container">
+                                <div class="skill speed" id="speed-bar"></div>
+                            </div>
+                        </td>
+                        <td class="td-stats speed-stats"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <script src="/assets/js/pokemon-page.js"></script>
+</body>
+</html>

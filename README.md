@@ -26,7 +26,7 @@
   <ul>
     <li>Lista os 151 primeiros Pokémon da região de Kanto.</li>
     <li>Os Pokémon são exibidos em cards que mostram sua imagem, número, nome, tipos e habilidades.</li>
-    <li>Os Pokémon são paginados para facilitar a navegação, com um botão "Carregar Mais" para carregar mais Pokémon.</li>
+    <li>Os Pokémon são paginados para facilitar a navegação, com um botão "Load More" para carregar mais Pokémon.</li>
   </ul>
 
 <b>2. Página Descritiva:</b>

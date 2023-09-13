@@ -1,7 +1,7 @@
 <h1>Pokedex</h1>
 <h2><i>Santander Bootcamp 2023</i></h2>
 <img align="right" alt="gif-Pikachu" height="200" src="https://media.giphy.com/media/xuXzcHMkuwvf2/giphy.gif"/>
-<p>Projeto desenvolvido nas aulas do Bootcamp, uma aplicação web que permite aos usuários explorar informações detalhadas sobre Pokémons diretamente da Pokémon API.</p>
+<p>Projeto desenvolvido nas aulas do Bootcamp, uma aplicação web que permite aos usuários explorar informações detalhadas sobre Pokémons diretamente da PokéAPI.</p>
 
 <h3>Linguagens utilizadas:</h3>
 <div>
